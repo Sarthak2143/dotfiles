@@ -64,6 +64,6 @@ let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
 " colorscheme codedark
-colorscheme gruvbox
+" colorscheme gruvbox
 " colorscheme onedark
 set background=dark
