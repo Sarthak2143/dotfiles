@@ -1,6 +1,7 @@
 # dotfiles
 
 Archive for all of my dotfiles.
+Will add for Ubuntu too.
 
 **Source:**
 - [Vim](src/vim)
