@@ -4,7 +4,6 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
-set textwidth=60
 set mouse=a
 set magic
 set noswapfile
@@ -21,18 +20,8 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'morhetz/gruvbox'
-Plugin 'tomasiser/vim-code-dark'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'mattn/emmet-vim'
-" Plugin 'sheerun/vim-polyglot'
-" Plugin 'preservim/nerdtree'
-" Plugin 'vim-airline/vim-airline'
-" Plugin 'vim-airline/vim-airline-themes'
-Plugin 'tpope/vim-fugitive'
-Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Plugin 'fatih/vim-go'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -63,7 +52,4 @@ endif
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
 
-" colorscheme codedark
-" colorscheme gruvbox
-" colorscheme onedark
 set background=dark
