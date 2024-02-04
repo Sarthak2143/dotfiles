@@ -23,6 +23,12 @@ To enable colorful output with `git`, type:
 git config --global color.ui auto
 ```
 
+Set `vim` as your git editor
+
+```git
+git config --global core.editor "vim"
+```
+
 To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.
 
 ```git
