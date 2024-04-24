@@ -20,7 +20,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'mattn/emmet-vim'
-Plugin 'preservim/nerdtree'
+Plugin 'preservim/nerdtree' " Open NERDTree with the :NERDTree command, and press ? to turn on the Quick Help
 call vundle#end()
 filetype plugin indent on
 
