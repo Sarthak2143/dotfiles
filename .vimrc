@@ -20,6 +20,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'mattn/emmet-vim'
+Plugin 'preservim/nerdtree'
 call vundle#end()
 filetype plugin indent on
 
